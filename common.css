@@ -1,0 +1,557 @@
+@font-face {
+  font-family: "Larsseit-Bold";
+  src: url("fonts/Larsseit-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Larsseit-Medium";
+  src: url("fonts/Larsseit-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Larsseit-Regular";
+  src: url("fonts/Larsseit-Regular.ttf") format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Larsseit-Regular";
+  color: #22356F;
+}
+body a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1130px;
+  margin: 0 auto;
+}
+
+.container-large {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  padding-top: 27px;
+}
+.header .header-container {
+  display: flex;
+  align-items: center;
+}
+.header .header-container .link {
+  color: #62D0DF;
+  font-family: "Larsseit-Bold";
+  font-size: 24px;
+  line-height: 23px;
+  letter-spacing: -0.035em;
+  margin-right: 313px;
+}
+.header .header-container .stick {
+  background-color: #22356F;
+  position: absolute;
+  width: 50px;
+  height: 1px;
+  top: 26px;
+  left: -5px;
+}
+.header .header-container .span {
+  font-family: "Larsseit-Medium";
+  font-size: 14px;
+  line-height: 17px;
+  margin-right: 27px;
+  position: relative;
+  cursor: pointer;
+}
+.header .header-container .span:hover {
+  color: gray;
+}
+.header .header-container span {
+  font-family: "Larsseit-Medium";
+  font-size: 14px;
+  line-height: 17px;
+  margin-right: 27px;
+  cursor: pointer;
+}
+.header .header-container span:hover {
+  color: gray;
+}
+.header .header-container button {
+  border: none;
+  border-radius: 50px;
+  background-color: #62D0DF;
+  width: 150px;
+  height: 50px;
+  font-size: 14px;
+  line-height: 14px;
+  color: #fff;
+  margin-left: 319px;
+  z-index: 3;
+  cursor: pointer;
+}
+.header .header-container button:hover {
+  background-color: #219faf;
+  color: #F4F9E2;
+}
+
+.first-section {
+  display: flex;
+  background-color: #F4F9E2;
+}
+.first-section .left-block {
+  margin-left: 11%;
+}
+.first-section .left-block h2 {
+  margin-top: 241px;
+  color: #62D0DF;
+  font-family: "Larsseit-Bold";
+  font-size: 24px;
+  line-height: 23px;
+  letter-spacing: -0.035em;
+  margin-bottom: 47px;
+}
+.first-section .left-block h1 {
+  font-family: "Larsseit-Bold";
+  font-size: 48px;
+  line-height: 45px;
+  letter-spacing: -0.035em;
+  margin-bottom: 95px;
+}
+.first-section .left-block p {
+  font-size: 24px;
+  line-height: 45px;
+  margin-bottom: 63px;
+}
+.first-section .left-block button {
+  border: none;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  color: #fff;
+  width: 150px;
+  height: 50px;
+  background-color: #FAB63E;
+  margin-right: 38px;
+  margin-bottom: 75px;
+  cursor: pointer;
+}
+.first-section .left-block button:hover {
+  background-color: #eb9500;
+}
+.first-section .left-block a {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  color: #FAB63E;
+}
+.first-section .left-block a:hover {
+  color: #eb9500;
+}
+.first-section .right-block {
+  display: flex;
+  justify-content: flex-end;
+}
+.first-section .right-block .bg {
+  position: absolute;
+  z-index: 1;
+}
+.first-section .right-block .photo {
+  z-index: 2;
+}
+
+.second-section {
+  background-color: #62D0DF;
+  padding-top: 151px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.second-section img {
+  margin-top: -151px;
+}
+.second-section h2 {
+  margin-bottom: 75px;
+  font-family: "Larsseit-Bold";
+  width: 223px;
+  font-size: 36px;
+  line-height: 27px;
+  letter-spacing: -0.006em;
+  color: #FFF;
+}
+.second-section p {
+  font-family: "Larsseit-Bold";
+  width: 555px;
+  font-size: 24px;
+  line-height: 30px;
+  color: #FFF;
+}
+.second-section p .span {
+  font-family: "Larsseit-Regular";
+  width: 555px;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.third-section .text-three {
+  margin-top: 150px;
+  display: flex;
+  margin-bottom: 75px;
+}
+.third-section .text-three span {
+  width: 93px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+  margin-left: 106px;
+  margin-right: 225px;
+}
+.third-section .text-three p {
+  font-family: "Larsseit-Medium";
+  width: 592px;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.005em;
+}
+.third-section .title-three {
+  width: 201px;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: rgba(34, 53, 111, 0.5);
+  margin-left: 620px;
+}
+.third-section .list {
+  margin-top: 24px;
+  display: flex;
+}
+.third-section .list .item {
+  width: 360px;
+  height: 360px;
+  margin-bottom: 120px;
+}
+.third-section .list .item .stick {
+  width: 255px;
+  height: 1px;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 71px;
+}
+.third-section .list .item ul {
+  list-style: none;
+  margin-top: 23px;
+  margin-left: 54px;
+}
+.third-section .list .item ul li {
+  font-family: "Larsseit-Bold";
+  width: 232px;
+  font-size: 32px;
+  line-height: 29px;
+  letter-spacing: -0.006em;
+  color: #FFFFFF;
+  padding-left: 23px;
+  position: relative;
+}
+.third-section .list .item ul li::before {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  content: "";
+  display: block;
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  background-color: #E9B730;
+}
+.third-section .list .item:hover {
+  cursor: pointer;
+  background-color: #eb9500;
+}
+.third-section .list .item-one {
+  background-color: #FFE2DE;
+}
+.third-section .list .item-two {
+  background-color: #C4E769;
+}
+.third-section .list .item-three {
+  background-color: #62D0DF;
+}
+.third-section .list .item-four {
+  background-color: #0052C1;
+}
+
+.fourth-section .list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 22px;
+}
+.fourth-section .list .item {
+  width: 33.3%;
+  height: 480px;
+}
+.fourth-section .list .item .stick {
+  width: 340px;
+  height: 1px;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 95px;
+}
+.fourth-section .list .item ul {
+  list-style: none;
+  margin-top: 30px;
+  margin-left: 72px;
+}
+.fourth-section .list .item ul li {
+  font-family: "Larsseit-Bold";
+  width: 157px;
+  font-size: 32px;
+  line-height: 35px;
+  letter-spacing: -0.006em;
+  color: #FFFFFF;
+  padding-left: 30px;
+  position: relative;
+}
+.fourth-section .list .item ul li::before {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  content: "";
+  display: block;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: #E9B730;
+}
+.fourth-section .list .item:hover {
+  cursor: pointer;
+  background-image: url(img/photo-section-six.jpg);
+}
+.fourth-section .list .item-one {
+  background-color: #22356F;
+}
+.fourth-section .list .item-two {
+  background-color: #0052C1;
+}
+.fourth-section .list .item-three {
+  background-image: url(img/photo-section-four.jpg);
+}
+.fourth-section .list .item-four {
+  background-color: #62D0DF;
+}
+.fourth-section .list .item-five {
+  background-color: #DEE1FF;
+}
+.fourth-section .list .item-six {
+  background-color: #8F00FF;
+}
+
+.fiveth-section .list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.fiveth-section .list .item {
+  width: 375px;
+  height: 185px;
+  padding-top: 55px;
+  padding-left: 105px;
+}
+.fiveth-section .list .item h2 {
+  width: 234px;
+  font-size: 28px;
+  line-height: 35px;
+  letter-spacing: -0.03em;
+  margin-bottom: 28px;
+}
+.fiveth-section .list .item p {
+  width: 298px;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+  color: rgba(34, 53, 111, 0.5);
+}
+.fiveth-section .list .item:hover {
+  background-color: rgba(128, 128, 128, 0.178);
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.sixth-section {
+  display: flex;
+}
+.sixth-section .text {
+  margin-left: 106px;
+}
+.sixth-section .text h2 {
+  width: 217px;
+  font-size: 16px;
+  line-height: 13px;
+  letter-spacing: 0.06em;
+  margin-top: 103px;
+  margin-bottom: 225px;
+}
+.sixth-section .text p {
+  font-family: "Larsseit-Bold";
+  width: 676px;
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: -0.01em;
+  margin-bottom: 206px;
+}
+.sixth-section .text p a {
+  color: #62D0DF;
+}
+.sixth-section .text p a:hover {
+  color: #219faf;
+}
+.sixth-section .text .but {
+  font-family: "Larsseit-Bold";
+  width: 137px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  color: #FAB63E;
+  cursor: pointer;
+}
+.sixth-section .text .but:hover {
+  color: #eb9500;
+}
+
+.seventh-section {
+  background-color: #22356F;
+  display: flex;
+  flex-direction: row-reverse;
+  color: #fff;
+}
+.seventh-section .text h2 {
+  margin-top: 103px;
+  width: 108px;
+  font-size: 16px;
+  line-height: 13px;
+  letter-spacing: 0.06em;
+  margin-bottom: 230px;
+}
+.seventh-section .text h1 {
+  font-family: "Larsseit-Bold";
+  width: 704px;
+  font-size: 64px;
+  line-height: 80px;
+  letter-spacing: -0.01em;
+  margin-bottom: 75px;
+}
+.seventh-section .text p {
+  width: 579px;
+  font-size: 36px;
+  line-height: 56px;
+  letter-spacing: -0.005em;
+  margin-bottom: 86px;
+}
+.seventh-section .text a {
+  font-family: "Larsseit-Bold";
+  width: 518px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  color: #62D0DF;
+}
+.seventh-section .text a:hover {
+  color: #219faf;
+}
+
+.eighth-section {
+  display: flex;
+}
+.eighth-section .text {
+  margin-top: 98px;
+  margin-left: 68px;
+  display: flex;
+}
+.eighth-section .text .item h2 {
+  font-family: "Larsseit-Bold";
+  font-size: 14px;
+  line-height: 9px;
+  letter-spacing: -0.006em;
+  margin-bottom: 54px;
+}
+.eighth-section .text .item p {
+  width: 174px;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: -0.006em;
+  color: rgba(34, 53, 111, 0.5);
+}
+.eighth-section .text .item-two {
+  margin-left: 95px;
+}
+.eighth-section .text .item-two p {
+  width: 159px;
+  margin-bottom: 25px;
+}
+.eighth-section .text .item-two a {
+  color: #62D0DF;
+}
+.eighth-section .text .item-two a:hover {
+  color: #219faf;
+}
+.eighth-section .text .item-three {
+  margin-left: 95px;
+}
+.eighth-section .text .item-three p {
+  width: 112px;
+}
+.eighth-section .last-line {
+  background-color: #62D0DF;
+  min-height: 100px;
+}
+
+.footer {
+  background-color: #62D0DF;
+  height: 48px;
+  padding-top: 32px;
+}
+.footer span {
+  font-family: "Larsseit-Bold";
+  width: 351px;
+  font-size: 14px;
+  line-height: 9px;
+  letter-spacing: -0.006em;
+  color: #FFF;
+}
+
+@media screen and (max-width: 1280px) {
+  .eighth-section .text {
+    margin-left: 30px;
+  }
+  .eighth-section .text .item-two {
+    margin-left: 30px;
+  }
+  .eighth-section .text .item-three {
+    margin-left: 30px;
+  }
+  .sixth-section .text {
+    margin-left: 30px;
+  }
+  .container-large {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+}
+@font-face {
+  font-family: "Larsseit-Bold";
+  src: url("fonts/Larsseit-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Larsseit-Medium";
+  src: url("fonts/Larsseit-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Larsseit-Regular";
+  src: url("fonts/Larsseit-Regular.ttf") format("truetype");
+}
+
+/*# sourceMappingURL=common.css.map */
